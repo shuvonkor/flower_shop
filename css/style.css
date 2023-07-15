@@ -149,7 +149,9 @@
     text-align: center;
     padding: 0 30px;
 }
-
+.hot-deal-left span {
+    color: #E55473 !important;
+}
 .hot-deal-left h2 {
     font-size: 40px;
     font-weight: 700;
@@ -195,27 +197,70 @@
 }
 
 /* Get The Latest Deals  */
-#latest-deals{
+#latest-deals {
     padding: 100px 0;
     text-align: center;
 }
+
 .latest-deals-container {
     padding: 80px 0;
     width: 1100px;
-background-size: cover;
+    background-size: cover;
     margin: auto;
     align-items: center;
-    background:url(../images/Rectangle\ 9.png);
+    background: url(../images/Rectangle\ 9.png);
     background-repeat: no-repeat;
 }
+
 .latest-deals-container h2 {
     font-size: 40px;
     font-weight: 700;
     padding: 10px 0;
 }
+
 .latest-deals-container p {
     font-size: 20px;
     margin-top: 10px;
     font-weight: 400;
     padding: 10px 0;
+}
+
+.latest-deals-container input[type=text] {
+    background-color: #fff;
+    font-size: 18px;
+    padding: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 400px;
+
+}
+
+/* footer  */
+footer {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+footer span{
+    color: #E55473 !important;
+}
+
+footer h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+footer .copyright{
+    font: 16px !important;
+    margin-top: 20px;
+    color: blue !important;
 }
